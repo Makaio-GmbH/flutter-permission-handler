@@ -107,6 +107,8 @@
             return [NotificationPermissionStrategy new];
         case PermissionGroupStorage:
             return [StoragePermissionStrategy new];
+        case PermissionGroupBluetooth:
+            return [BluetoothPermissionStrategy new];
         default:
             return [UnknownPermissionStrategy new];
     }

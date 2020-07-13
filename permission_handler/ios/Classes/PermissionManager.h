@@ -22,6 +22,7 @@
 #import "StoragePermissionStrategy.h"
 #import "UnknownPermissionStrategy.h"
 #import "NotificationPermissionStrategy.h"
+#import "BluetoothPermissionStrategy.h"
 #import "PermissionHandlerEnums.h"
 #import "Codec.h"
 
